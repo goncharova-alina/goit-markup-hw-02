@@ -1,0 +1,36 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px; 
+    color: #757575;
+}
+
+.link{
+    text-decoration: none;
+}
+.list{
+    list-style: none;
+}
+.navigation-list-link,
+.header-mail-link link,
+.header-tel-link link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.header-mail-link:hover,
+.header-mail-link:focus,
+.header-tel-link:hover,
+.header-tel-link:focus
+{
+    color: #2196F3;
+}
+
+.header-mail-link,
+.header-tel-link{
+    color: #757575;
+}
