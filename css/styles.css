@@ -1,3 +1,12 @@
+:root {
+--main-font:'Roboto', sans-serif;
+--secondary-font:'Raleway', sans-serif;
+--title-dark-theme-color: #ffffff;
+--title-light-theme-color: #212121;
+--text-description-color: #757575;
+--accent-color: #2196F3;
+}
+
 body {
     background-color: #ffffff;
     font-family: 'Roboto', sans-serif;
@@ -11,6 +20,23 @@ body {
 .list{
     list-style: none;
 }
+/* Логотип */
+.logo,
+.logo-element{
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.logo-element {
+    color: var(--accent-color);
+}
+.logo{
+    color: #000000
+}
+/* Header */
 .navigation-list-link,
 .header-mail-link link,
 .header-tel-link link{
@@ -18,7 +44,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--title-light-theme-color);
 }
 .navigation-list-link:hover,
 .navigation-list-link:focus,
@@ -32,5 +58,25 @@ body {
 
 .header-mail-link,
 .header-tel-link{
-    color: #757575;
+    color: var(--text-description-color);
 }
+/* Hero section */
+.hero-title{
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--title-dark-theme-color);
+}
+.modal-btn{
+    font-family: var(--main-font)
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    background-color: var(--accent-color);
+    color: var(--title-dark-theme-color);
+    border-style: none;
+}
+/* Преимущества секция */
