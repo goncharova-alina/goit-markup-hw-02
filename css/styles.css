@@ -21,7 +21,8 @@ body {
     list-style: none;
 }
 /* Логотип */
-.logo,
+.logo-header,
+.logo-footer,
 .logo-element{
     font-family: var(--secondary-font);
     font-weight: 700;
@@ -33,7 +34,7 @@ body {
 .logo-element {
     color: var(--accent-color);
 }
-.logo{
+.logo-header{
     color: #000000
 }
 /* Header */
@@ -81,7 +82,7 @@ color: var(--title-dark-theme-color);
 }
 /* Преимущества секция */
 .subtitle{
-    font-weight: 700;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -106,3 +107,42 @@ color: var(--title-dark-theme-color);
 .services .subtitle{
     color: var(--title-dark-theme-color);
 }
+/* Команда секция */
+.crewman-list-item-name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--title-light-theme-color);
+    }
+.crewman-list-item-position{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--text-description-color);
+}
+.logo-footer{
+    color: #ffffff;
+}
+.address-office{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.footer-mail-link,
+.footer-tel-link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    }
+    .subscribe-subtitle{
+        color: #ffffff;
+    }
