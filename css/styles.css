@@ -104,7 +104,7 @@ color: var(--title-dark-theme-color);
     letter-spacing: 0.03em;
     color: var(--title-light-theme-color)
 }
-.services .subtitle{
+.services-subtitle{
     color: var(--title-dark-theme-color);
 }
 /* Команда секция */
