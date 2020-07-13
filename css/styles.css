@@ -54,7 +54,7 @@ body {
 .header-tel-link:hover,
 .header-tel-link:focus
 {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .header-mail-link,
@@ -123,7 +123,7 @@ color: var(--title-dark-theme-color);
     color: var(--text-description-color);
 }
 .logo-footer{
-    color: #ffffff;
+    color: var(--title-dark-theme-color);
 }
 .address-office{
     font-style: normal;
@@ -131,7 +131,7 @@ color: var(--title-dark-theme-color);
     font-size: 14px;
     line-height: 1.5;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--title-dark-theme-color);
 }
 
 .footer-mail-link,
@@ -144,5 +144,31 @@ color: var(--title-dark-theme-color);
     color: rgba(255, 255, 255, 0.6);
     }
     .subscribe-subtitle{
-        color: #ffffff;
+        color: var(--title-dark-theme-color);
+    }
+    /* Страница " Портфолио" */
+    /* Радио кнопки */
+    .radio-btn{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.6;
+        letter-spacing: 0.03em;
+    }
+    .radio-btn:hover,
+    .radio-btn:focus{
+        color: var(--accent-color);
+    }
+    .portfolio-list-item-title{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+        color: var(--title-light-theme-color);
+    }
+    .portfolio-list-item-description{
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 1.9;
+        letter-spacing: 0.03em;
+        color: var(--text-description-color);
     }
