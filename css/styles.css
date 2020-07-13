@@ -153,10 +153,12 @@ color: var(--title-dark-theme-color);
         font-size: 16px;
         line-height: 1.6;
         letter-spacing: 0.03em;
+        border-style: none;
     }
     .radio-btn:hover,
     .radio-btn:focus{
-        color: var(--accent-color);
+        background-color: var(--accent-color);
+        color: var(--title-dark-theme-color);
     }
     .portfolio-list-item-title{
         font-weight: 700;
